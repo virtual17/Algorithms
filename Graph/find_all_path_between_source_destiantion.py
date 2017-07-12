@@ -1,11 +1,11 @@
 # Python program to print all paths from a source to destination.
 
 from collections import defaultdict
-import copy  
+
 
 final_path=[] 
 
-fl=0
+
 def lists_overlap(a, b):
     for i in a:
         if i in b:
